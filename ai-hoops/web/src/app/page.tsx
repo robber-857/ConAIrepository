@@ -8,13 +8,13 @@ export default function Home() {
       <h1 className="text-2xl font-semibold mb-6">AI Hoops</h1>
       <div className="flex gap-3">
         <Link
-          href={routes.POSE_2D}
+          href={routes.pose2d.main}
           className="rounded-xl px-4 py-2 bg-black text-white hover:opacity-90"
         >
           Start Pose 2D
         </Link>
         <Link
-          href={routes.POSE}
+          href={routes.pose}
           className="rounded-xl px-4 py-2 border hover:bg-gray-50"
         >
           Pose 3D
